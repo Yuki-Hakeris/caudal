@@ -1,0 +1,19 @@
+name: caudal_env
+
+dependencies:
+ - python=3.7
+ - conda-forge::jupyterlab=1.2.0
+ - conda-forge::numpy
+ - conda-forge::matplotlib
+ - conda-forge::pandas
+ - conda-forge::ipython
+ - conda-forge::ipywidgets
+ - conda-forge::ipyleaflet
+ - conda-forge::nodejs
+ - conda-forge::panel
+ - conda-forge::scipy
+ - conda-forge::cartopy
+ - conda-forge::bokeh
+ - pyviz::holoviews=1.12.7
+ - pyviz::hvplot=0.5.2
+ - conda-forge::xlrd
