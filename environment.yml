@@ -1,4 +1,4 @@
-name: caudal_env
+name: caudal-env
 
 dependencies:
  - python=3.7
@@ -16,4 +16,3 @@ dependencies:
  - conda-forge::bokeh
  - pyviz::holoviews=1.12.7
  - pyviz::hvplot=0.5.2
- - conda-forge::xlrd
