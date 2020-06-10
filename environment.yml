@@ -1,19 +1,28 @@
-name: caudal-env
+name: epiura
 
 dependencies:
- - python=3.7
- - conda-forge::jupyterlab=1.2.0
- - conda-forge::numpy
- - conda-forge::matplotlib
- - conda-forge::pandas
- - conda-forge::ipython
- - conda-forge::ipywidgets
- - conda-forge::ipyleaflet
- - conda-forge::nodejs
- - conda-forge::panel
- - conda-forge::scipy
- - conda-forge::cartopy
- - conda-forge::bokeh
- - pyviz::holoviews=1.12.7
- - pyviz::hvplot=0.5.2
- - conda-forge::xlrd
+ - python=3.7.7
+ - conda-forge::jupyterlab=2.1.4
+ - conda-forge::numpy=1.18.5
+ - conda-forge::matplotlib=3.2.1
+ - conda-forge::plotly=4.8.1
+ - conda-forge::pandas=1.0.4
+ - conda-forge::xarray=0.15.1
+ - conda-forge::dask=2.18.0
+ - conda-forge::ipython=7.15.0
+ - conda-forge::ipywidgets=7.5.1
+ - conda-forge::ipyleaflet=0.13.0
+ - conda-forge::nodejs=13.13.0
+ - conda-forge::panel=0.9.5
+ - conda-forge::scipy=1.4.1
+ - conda-forge::cartopy=0.18.0
+ - pyviz::holoviews=1.13.2
+ - pyviz::hvplot=0.6.0
+ - pyviz::geoviews=1.8.1
+ - conda-forge::bokeh=2.0.1
+ - conda-forge::cftime=1.1.3
+ - conda-forge::nbconvert=5.6.1
+ - conda-forge::geopandas=0.7.0
+ - conda-forge::iris=2.4.0
+ - conda-forge::rasterio=1.1.5
+ - conda-forge::xesmf=0.3.0
